@@ -1,0 +1,307 @@
+.btn{
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+   
+    outline: none;
+   
+}
+
+    
+    .btn:hover{
+        filter: brightness(110%);
+    }
+    
+    .btn:active{
+        transform: translate(0,0.3rem);
+   
+    }
+
+
+.btn:hover{
+    filter: brightness(90%);
+}
+
+.btn:active{
+    transform: translate(0,0.3rem);
+    box-shadow: 0,0.1rem rgba(2, 191, 238, 0.7);
+}
+
+.btn-primary{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(33,123,128);
+    outline: none;
+    
+}
+
+.btn-secondary{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(4, 98, 248);
+    outline: none;
+  
+}
+
+.btn-success{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(3, 123, 65);
+    outline: none;
+}
+
+.btn-danger{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(218, 15, 15);
+    outline: none;
+    
+}
+
+.btn-warning{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(237, 6, 68);
+    outline: none;
+    
+}
+
+.btn-info{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(7, 148, 172);
+    outline: none;
+    
+}
+
+.btn-light{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(41, 147, 253);
+    outline: none;
+    
+}
+
+.btn-dark{
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color:rgb(7, 0, 2);
+    outline: none;
+    
+}
+
+.btn-outline-primary{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:green;
+    outline:black;
+    
+
+}
+
+.btn-outline-primary:hover{
+     
+background-color:rgb(33,123,128);
+color: white;
+}
+
+
+.btn-outline-secondary{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:6.3rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:blue;
+    
+    outline:black;
+    
+
+}
+
+.btn-outline-secondary:hover{
+     
+background-color:rgb(4, 98, 248);
+color: white;
+}
+
+.btn-outline-success{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:green;
+    outline:black;
+    
+
+}
+
+.btn-outline-success:hover{
+     
+background-color:green;
+color: white;
+}
+
+.btn-outline-danger{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:red;
+    outline:black;
+    
+
+}
+
+.btn-outline-danger:hover{
+     
+background-color:red;
+color: white;
+}
+
+.btn-outline-warning{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:rgb(189, 3, 3);
+    outline:black;
+    
+
+}
+
+.btn-outline-warning:hover{
+     
+background-color:rgb(181, 3, 3);
+color: white;
+}
+
+.btn-outline-info{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:rgb(14, 109, 241);
+    outline:black;
+    
+
+}
+
+.btn-outline-info:hover{
+     
+background-color:rgb(9, 144, 240);
+color: white;
+}
+
+
+.btn-outline-light{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:rgb(10, 104, 245);
+    outline:black;
+    
+
+}
+
+.btn-outline-light:hover{
+     
+background-color:rgb(64, 197, 249);
+color: white;
+}
+
+
+.btn-outline-dark{
+     
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 2.3rem;
+    width:5rem;
+    border:2px solid black;
+    border-radius: 10px;
+    color:black;
+    outline:black;
+    
+
+}
+
+.btn-outline-dark:hover{
+     
+background-color:black;
+color: white;
+}
